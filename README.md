@@ -1,4 +1,4 @@
-# scraggy
+# wailord
 
 ## Project setup
 ```
