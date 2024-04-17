@@ -5,15 +5,15 @@ import HomeView from '../views/HomeView.vue';
 
 const routes = [
   {
-    path: '/login',
-    name: 'login',
-    component: LoginView
-  },
-  {
     path: '/',
     name: 'home',
     component: HomeView,
     meta: { requiresAuth: true }
+  },
+  {
+    path: '/login',
+    name: 'login',
+    component: LoginView
   }
 ];
 
